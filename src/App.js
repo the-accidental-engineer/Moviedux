@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./styles.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import MoviesGrid from "./components/MoviesGrid";
-import Watchlist from "./components/Watchlist";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import MoviesGrid from "./Components/MoviesGrid";
+import Watchlist from "./Components/Watchlist";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
